@@ -16,7 +16,7 @@ public class DisFollowBlock : MonoBehaviour {
         // 差を取っておく
         offset = this.transform.position - player.transform.position;
         posi = this.transform.position - player.transform.position;
-        this.posi.y += 0.5f;
+        this.posi.y += player.transform.position.y;
 
     }
 
